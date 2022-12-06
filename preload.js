@@ -15,3 +15,6 @@ window.addEventListener('DOMContentLoaded', () => {
     replaceText(`${type}-version`, process.versions[type])
   }
 })
+
+const repo = require("./models/test.js")
+const testMgr = require("./models/testmgr.js")
