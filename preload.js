@@ -16,5 +16,5 @@ window.addEventListener('DOMContentLoaded', () => {
   }
 })
 
-const repo = require("./models/test.js")
+// const repo = require("./models/test.js")
 const testMgr = require("./models/testmgr.js")
